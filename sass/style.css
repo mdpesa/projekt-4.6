@@ -17,6 +17,7 @@ body {
 }
 
 .splash-foto {
+  height: 100vh;
   height: 100%;
   width: 100%;
   position: relative;
@@ -101,4 +102,17 @@ h1 {
   padding: 15px;
   background-color: #f7df02;
   border-radius: 5px;
+}
+
+/*services*/
+.container {
+  padding: 80px 100px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title h2 {
+  color: black;
 }
