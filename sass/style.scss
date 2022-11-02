@@ -61,12 +61,13 @@ li {
     padding-top: 15px;
     display: inline-block;
     color: white;
-    text-decoration: none;
     text-transform: uppercase;
     font-family: $font-1;
     font-size: 18px;
     a {
         margin-right: 25px;
+        text-decoration: none;
+        color: white;
     }
 }
 
