@@ -1,3 +1,4 @@
+
 /*global*/
 $font-1: 'Lato', sans-serif;
 $font-2: 'Yellowtail', cursive;
@@ -9,7 +10,8 @@ $font-2: 'Yellowtail', cursive;
 }
 
 body {
-    margin: 0
+    margin: 0;
+    font-family: $font-1;
 }
 
 /*splash*/
@@ -17,7 +19,9 @@ body {
 .foto-wrapper {
     display: flex;
     flex-wrap: wrap;
-    object-fit: cover;
+    background-size: cover;
+    background-image: url("https://images.pexels.com/photos/163143/sackcloth-sackcloth-textured-laptop-ipad-163143.jpeg");
+    height: 100vh;
 }
 
 .splash-foto {
@@ -105,7 +109,7 @@ h1 {
     font-weight: bolder;
     font-family: $font-1;
     padding: 15px;
-    background-color: hsl(54, 98%, 49%);
+    background-color: hsl(51, 93%, 52%);
     border-radius: 5px;
 }
 
@@ -121,5 +125,98 @@ h1 {
         color: black;
         font-family: $font-1;
         font-style: normal;
+        font-size: 30px;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+    p {
+        font-style: italic;
     }
 }
+
+.section-wrapper {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 0 0 33.333%;
+    padding: 0 15px;
+    text-align: center;
+    .box-title {
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+}
+
+.fa-solid {
+    font-size: 30px;
+    color:hsl(51, 93%, 52%);
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-style: solid;
+    border-color: #f6d413;
+    border-radius: 50%;
+}
+
+/*portfolio*/
+
+.portfolio {
+    background: #f8f6ee;
+}
+
+.box-portfolio {
+    width: 250px;
+    height: 350px;
+    background: white;
+    text-align: center;
+    flex: 0 0 33.333%;
+}
+
+.image-wrapper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    position: arelative;
+}
+
+p {
+    color: #706b60;
+    font-weight: 200;
+ }
+ /*contact*/ 
+
+ .contact-list {
+    font-size: 0;
+ }
+
+ .contact {
+    font-size: 15px;
+    background-color: black;
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+ }
+
+ .footer-container {
+    padding: 15px 100px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .contact-wrapper {
+    padding-left: 100px;
+ }
